@@ -69,6 +69,21 @@ The analysis to study trends and patterns of Riders was conducted majorly on fiv
 - Analysis of Rideable types and rider types
 - Summary Statistics
 
+TRENDS & RELATIONSHIP OBSERVED -
+
+
+
+## BUSINESS RECOMMENDATIONS
+
+
+
+
+## TABLEAU DASHBOARD
+
+Explore the interactive dashboard: https://public.tableau.com/app/profile/riya.p4328/viz/CyclisticBikes_17927505703990/Dashboard1#1
+View Cyclistic Bikes Dashboard on Tableau Public 
+
+## CONCLUSION 
 
 
 
