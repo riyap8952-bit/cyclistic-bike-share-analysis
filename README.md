@@ -24,12 +24,26 @@ the data is comprehensive in nature and forms relevant source for answering the 
 - Google BigQuery (SQL): Combining datasets, further cleaning, validation, and analysis.
 - Tableau: Data visualization and dashboard creation.
 
-## DATA CLEANING & MANIPULATION
+## DATA CLEANING & PREPARATION
+
+To tackle the business problem into the consideration 12 months of Cyclistic Historical Trip data was studied and analyzed. 
+Before beginning with analysis of data the pre- cleaning activities were carried out. These activities ensured that the data
+that is used is Accurate, Reliable, Complete, and Consistent.
+
+Then after, data cleaning process was carried forward. It involved identifying and fixing the data errors and constraints.
+In an order to clean such large set of data, the initial step was to use Spreadsheets and later BigQuery as tools  to get 
+rid of irrelevant data. 
+The dataset was examined for following aspects -
+- Missing or NULL values
+- Duplicate records
+- Inconsistent date and time formats
+- Negative ride duration
+- Invalid or inconsistent values
+- Inconsistent formatting
 
 A. Initial data preparation
 
 - Examined the 12 monthly datasets individually.
-- Checked for missing values, duplicate records, inconsistent date-time formats, invalid values, and inconsistencies in the data.
 - Used WPS Spreadsheets for initial cleaning and preparation.
 
 B. Data cleaning
@@ -45,4 +59,20 @@ C. Data consolidation and validation
 - Combined the 12 monthly datasets into a single table for analysis.
 - Rechecked the consolidated dataset for duplicate records and inconsistencies.
 - Removed 71 rides belonging to September 2025 that were included in the October 2025 source data.
+
+## DATA ANALYSIS SUMMARY
+
+The analysis to study trends and patterns of Riders was conducted majorly on five lines, 
+- Analysis of casual riders and annual members
+- Analysis of Rides by Day of the Week
+- Analysis of Rides by Month
+- Analysis of Rideable types and rider types
+- Summary Statistics
+
+
+
+
+
+
+
 
