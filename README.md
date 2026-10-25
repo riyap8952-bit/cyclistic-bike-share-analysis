@@ -80,12 +80,10 @@ TRENDS & RELATIONSHIP OBSERVED -
 
 ## TABLEAU DASHBOARD
 
-Explore the interactive dashboard: https://public.tableau.com/app/profile/riya.p4328/viz/CyclisticBikes_17927505703990/Dashboard1#1
+Explore the interactive dashboard: https://public.tableau.com/app/profile/micro.ar/viz/CyclisticBikes_17927505703990/Dashboard1
 View Cyclistic Bikes Dashboard on Tableau Public 
 
 ## CONCLUSION 
-
-
 
 
 
