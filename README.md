@@ -66,12 +66,19 @@ The analysis to study trends and patterns of Riders was conducted majorly on fiv
 - Analysis of casual riders and annual members
 - Analysis of Rides by Day of the Week
 - Analysis of Rides by Month
-- Analysis of Rideable types and rider types
+- Analysis of Bike ride types and rider types
 - Summary Statistics
 
 TRENDS & RELATIONSHIP OBSERVED -
-
-
+- Rider distribution: Annual members account for 64.53% of rides, 
+  while casual riders account for 35.47%.
+- Ride duration: Casual riders take longer rides on average, with ride duration approximately 66% longer 
+  than those of members.
+- Weekly patterns: Casual rides peak on Saturdays, while member rides are strongest on weekdays,
+  particularly Tuesday through Thursday.
+- Monthly trends: Member rides peak in August 2026, while casual rides peak in July 2026.
+  Both groups experience seasonal fluctuations, with members recording more rides than casual riders in every month.
+- Bike preferences: Annual members record higher usage of both classic and electric bikes than casual riders.
 
 ## BUSINESS RECOMMENDATIONS
 
