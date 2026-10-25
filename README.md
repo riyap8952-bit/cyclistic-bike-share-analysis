@@ -20,7 +20,6 @@ the data is comprehensive in nature and forms relevant source for answering the 
 ## TOOLS USED
 
 - WPS Office Spreadsheets: Initial data cleaning and preparation.
-- Google Sheets: Used with Connected Sheets to facilitate data uploads.
 - Google BigQuery (SQL): Combining datasets, further cleaning, validation, and analysis.
 - Tableau: Data visualization and dashboard creation.
 
