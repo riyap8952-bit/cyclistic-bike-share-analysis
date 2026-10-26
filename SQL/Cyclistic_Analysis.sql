@@ -102,7 +102,36 @@ ORDER BY day_of_week, member_casual;
 06
 ## ANALYSIS OF TOTAL RIDES BY MONTH
 
+SELECT
+  FORMAT_TIMESTAMP('%Y-%m', started_at) AS ride_month,
+  member_casual,
+  COUNT(*) AS total_rides
+FROM `speedy-victory-507504-c5.CASE_STUDY_CYCLISTIC.12_months_combined_cleaned`
+WHERE started_at >= TIMESTAMP('2025-10-01 00:00:00+00')
+  AND started_at < TIMESTAMP('2026-10-01 00:00:00+00')
+  AND member_casual IN ('member', 'casual')
+GROUP BY ride_month, member_casual
+ORDER BY ride_month, member_casual;
 
+07
+## ANAYSIS OF RIDEABLE TYPES AND TOTAL RIDES
+
+SELECT
+  rideable_type,
+  member_casual,
+  COUNT(*) AS total_rides
+FROM
+  `speedy-victory-507504-c5.CASE_STUDY_CYCLISTIC.12_months_combined_cleaned`
+WHERE
+  started_at >= TIMESTAMP('2025-10-01 00:00:00+00')
+  AND started_at < TIMESTAMP('2026-10-01 00:00:00+00')
+  AND member_casual IN ('member', 'casual')
+GROUP BY
+  rideable_type,
+  member_casual
+ORDER BY
+  rideable_type,
+  member_casual;
 
 
 
