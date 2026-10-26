@@ -92,7 +92,9 @@ View Cyclistic Bikes Dashboard on Tableau Public
 
 ## CONCLUSION 
 
-The analysis makes uses of suitable tools to examine the data errors and clean it for further study.
+The analysis makes uses of suitable tools to examine the data errors and clean it for further study. It follows six phases of 
+Data Analysis Process - Ask, Prepare, Process, Analyze, Share, Act. 
+
 
 The trends and patterns of rider types, ride lengths are analyzed to give business recommendations. These findings provide insights 
 that can help Cyclistic develop data-driven strategies to encourage casual riders to become annual members.
